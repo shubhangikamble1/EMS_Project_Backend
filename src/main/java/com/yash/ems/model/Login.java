@@ -1,3 +1,4 @@
+package com.yash.ems.model;
 //package com.example.demo.model;
 //
 //import javax.persistence.Entity;

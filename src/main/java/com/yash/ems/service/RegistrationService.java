@@ -1,6 +1,6 @@
-package com.example.demo.service;
+package com.yash.ems.service;
 
-import com.example.demo.model.Registration;
+import com.yash.ems.model.Registration;
 
 public interface RegistrationService {
 

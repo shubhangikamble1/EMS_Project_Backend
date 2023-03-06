@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.yash.ems.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.model.Registration;
-import com.example.demo.serviceimpl.RegistrationServiceImpl;
+import com.yash.ems.model.Registration;
+import com.yash.ems.serviceimpl.RegistrationServiceImpl;
 
 
 @CrossOrigin("*")
@@ -38,6 +38,7 @@ public class RegistrationController {
 	       {
 	           regobj =regService.findByUsernameAndPassword(username,password);
 	       }
+	       
 	       
 	       
 	       if(regobj.getUsername().equals(username) && regobj.getPassword().equals(password) ) {

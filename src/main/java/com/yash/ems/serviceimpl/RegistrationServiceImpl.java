@@ -1,11 +1,11 @@
-package com.example.demo.serviceimpl;
+package com.yash.ems.serviceimpl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.demo.model.Registration;
-import com.example.demo.repo.RegistrationRepository;
-import com.example.demo.service.RegistrationService;
+import com.yash.ems.model.Registration;
+import com.yash.ems.repo.RegistrationRepository;
+import com.yash.ems.service.RegistrationService;
 
 @Service
 public class RegistrationServiceImpl implements RegistrationService{
